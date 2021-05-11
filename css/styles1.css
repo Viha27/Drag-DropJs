@@ -1,3 +1,15 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -20,6 +32,8 @@
     display: flex;
     background-color: white;
   }
+
+ 
 
   .flex-container1 {
     display: flex;
